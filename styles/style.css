@@ -29,4 +29,30 @@ main {
 
 audio {
     width: 50vw;  
-  }
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+ul a img {
+    width: 50px;
+    margin: 20px;
+}
+
+@media(max-width: 574px) {
+    header img {
+        width: 70%;
+    }
+
+    main img {
+        width: 80% ;
+    }
+
+    audio {
+        width: 80vw;  
+    }
+}
