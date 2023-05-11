@@ -43,6 +43,24 @@ ul a img {
     margin: 20px;
 }
 
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+    p {
+    color: white;
+    text-decoration: none;
+    margin-top: 30px;
+}
+
+p a {
+    text-decoration: none;
+    color: aquamarine;
+}
+
 @media(max-width: 574px) {
     header img {
         width: 70%;
@@ -56,3 +74,4 @@ ul a img {
         width: 80vw;  
     }
 }
+
